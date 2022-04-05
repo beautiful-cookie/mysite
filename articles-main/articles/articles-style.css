@@ -202,3 +202,38 @@ footer {
     height: 1%;
     padding: 1%;
 }
+
+.text-paragraph
+{
+    margin-bottom: 3%;
+}
+
+.text-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.highlight
+{
+    color: purple;
+}
+
+.txt-hr
+{
+    color: purple;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.txt-hr:hover
+{
+    color: violet;
+}
+
+.txt-underline
+{
+    text-decoration: underline;
+}
