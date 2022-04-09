@@ -51,7 +51,7 @@ header
 
 footer {
     display: block;
-    height: 40vh;
+    min-height: 70vh;
     max-width: 100%;
     background-color: #1C4942;
     padding: 5% 5%;
