@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flowerd&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
@@ -51,7 +51,7 @@ header
 
 footer {
     display: block;
-    height: 40vh;
+    min-height: 70vh;
     max-width: 100%;
     background-color: #1C4942;
     padding: 5% 5%;
