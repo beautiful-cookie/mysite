@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flowerd&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
@@ -51,7 +51,7 @@ header
 
 footer {
     display: block;
-    height: 40vh;
+    min-height: 40vh;
     max-width: 100%;
     background-color: #1C4942;
     padding: 5% 5%;
@@ -124,11 +124,11 @@ footer {
 .main-message-div
 {
     display: flex; 
+    flex-direction: column;
     width: 60vw;
     margin: 5%;
     margin-left: 15vw;
     padding: 5%;
-    flex-wrap: wrap; 
     justify-content: center; 
     align-items: center;
 }
